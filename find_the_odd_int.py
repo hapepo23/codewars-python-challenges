@@ -19,27 +19,27 @@ def find_it(seq):
 
 
 # ---- SECOND SOLUTION -------------------------------------------------
-'''
+
 # XOR has useful properties: a ^ a = 0 and a ^ 0 = a
 # So all paired numbers cancel out: a ^ a ^ b ^ b ^ c = c
 
-def find_it(seq):
-  result = 0
-  for num in seq:
-    result ^= num
-  return result
-'''
+# def find_it(seq):
+# 	result = 0
+# 	for num in seq:
+# 		result ^= num
+# 	return result
+
 
 # ---- THIRD SOLUTION --------------------------------------------------
-'''
+
 # Even shorter using functools.reduce
 
-from functools import reduce
-from operator import xor
+# from functools import reduce
+# from operator import xor
+#
+# def find_it(seq):
+# 	return reduce(xor, seq)
 
-def find_it(seq):
-  return reduce(xor, seq)
-'''
 
 def dotest(seq, expected):
 	actual = find_it(seq)

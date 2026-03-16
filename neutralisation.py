@@ -19,22 +19,22 @@ def neutralise(s1, s2):
 
 
 # ---- SECOND SOLUTION -------------------------------------------------
-'''
-def neutralise(s1, s2):
-  r = ''
-  for i, c in enumerate(s1):
-    r += '0' if c != s2[i] else c
-  return r
-'''
+
+# def neutralise(s1, s2):
+# 	r = ''
+# 	for i, c in enumerate(s1):
+# 		r += '0' if c != s2[i] else c
+# 	return r
+
 
 # ---- THIRD SOLUTION --------------------------------------------------
-'''
-def neutralise(s1, s2):
-  r = ''
-  for a, b in zip(s1, s2):
-    r += '0' if a != b else a
-  return r
-'''
+
+# def neutralise(s1, s2):
+# 	r = ''
+# 	for a, b in zip(s1, s2):
+# 		r += '0' if a != b else a
+# 	return r
+
 
 def dotest(s1, s2, expected):
 	actual = neutralise(s1, s2)
