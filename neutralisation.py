@@ -4,7 +4,7 @@
 Neutralisation
 https://www.codewars.com/kata/65128732b5aff40032a3d8f0
 '''
-# ---- SOLUTION --------------------------------------------------------
+# ---- FIRST SOLUTION --------------------------------------------------
 
 def neutralise(s1, s2):
   r = ''
@@ -14,18 +14,28 @@ def neutralise(s1, s2):
     else:
       r += s1[i]
   return r
-  
-# ----------------------------------------------------------------------  
 
-def displaystatus(ok):
-  if ok:
-    return 'OK'
-  else:
-    return 'FAIL'
+# ---- SECOND SOLUTION -------------------------------------------------
+'''
+def neutralise(s1, s2):
+  r = ''
+  for i, c in enumerate(s1):
+    r += '0' if c != s2[i] else c
+  return r
+'''
+# ---- THIRD SOLUTION --------------------------------------------------
+'''
+def neutralise(s1, s2):
+  r = ''
+  for a, b in zip(s1, s2):
+    r += '0' if a != b else a
+  return r
+'''
+# ----------------------------------------------------------------------  
 
 def dotest(s1, s2, expected):
   actual = neutralise(s1, s2)
-  status = displaystatus(expected == actual)
+  status = 'OK' if expected == actual else 'FAIL'
   print(f's1 = {s1}, s2 = {s2}, expected = {expected}, actual = {actual} -> {status}')
 
 def main():
@@ -49,7 +59,7 @@ def main():
   dotest("---+", "-+++", "-00+")
   dotest("+--", "+--", "+--")
   dotest("--+++-+-", "+++++---", "00+++-0-")
-  dummy = input('waiting')
+  dummy = input('Press ENTER ...')
 
 if __name__ == "__main__":
 	main()
