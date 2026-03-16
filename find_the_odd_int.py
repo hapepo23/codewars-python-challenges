@@ -1,11 +1,10 @@
-#!/usr/bin/python3 
 '''
 6 kyu
 Find the odd int
 https://www.codewars.com/kata/54da5a58ea159efa38000836
 '''
 
-# ---- FIRST SOLUTION --------------------------------------------------
+# ---- SOLUTION ----
 
 def find_it(seq):
   counts = {}
@@ -16,7 +15,7 @@ def find_it(seq):
       return k;
   return 0  # should not happen
 
-# ---- SECOND SOLUTION -------------------------------------------------
+# ---- SECOND SOLUTION ----
 '''
 # XOR has useful properties: a ^ a = 0 and a ^ 0 = a
 # So all paired numbers cancel out: a ^ a ^ b ^ b ^ c = c
@@ -28,7 +27,7 @@ def find_it(seq):
   return result
 '''
 
-# ---- THIRD SOLUTION --------------------------------------------------
+# ---- THIRD SOLUTION ----
 '''
 # Even shorter using functools.reduce
 
@@ -38,6 +37,8 @@ from operator import xor
 def find_it(seq):
   return reduce(xor, seq)
 '''
+
+# ---- TEST ----
 
 def dotest(seq, expected):
   actual = find_it(seq)

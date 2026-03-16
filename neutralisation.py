@@ -1,11 +1,10 @@
-#!/usr/bin/python3 
 '''
 8 kyu
 Neutralisation
 https://www.codewars.com/kata/65128732b5aff40032a3d8f0
 '''
 
-# ---- FIRST SOLUTION --------------------------------------------------
+# ---- SOLUTION ----
 
 def neutralise(s1, s2):
   r = ''
@@ -16,7 +15,7 @@ def neutralise(s1, s2):
       r += s1[i]
   return r
 
-# ---- SECOND SOLUTION -------------------------------------------------
+# ---- SECOND SOLUTION ----
 '''
 def neutralise(s1, s2):
   r = ''
@@ -25,7 +24,7 @@ def neutralise(s1, s2):
   return r
 '''
 
-# ---- THIRD SOLUTION --------------------------------------------------
+# ---- THIRD SOLUTION ----
 '''
 def neutralise(s1, s2):
   r = ''
@@ -33,6 +32,8 @@ def neutralise(s1, s2):
     r += '0' if a != b else a
   return r
 '''
+
+# ---- TEST ----
 
 def dotest(s1, s2, expected):
   actual = neutralise(s1, s2)

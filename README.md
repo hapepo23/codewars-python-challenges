@@ -34,5 +34,6 @@ The code I released here into the public domain may appear in third-party projec
 
 1. [<6 kyu> Find the odd int](https://www.codewars.com/kata/54da5a58ea159efa38000836) - Solution: [find_the_odd_int.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/find_the_odd_int.py)
 1. [<8 kyu> Neutralisation](https://www.codewars.com/kata/65128732b5aff40032a3d8f0) - Solution: [neutralisation.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/neutralisation.py)
+1. [<8 kyu> You only need one - Beginner](https://www.codewars.com/kata/57cc975ed542d3148f00015b) - Solution: [you_only_need_one.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/you_only_need_one.py)
 
 -----
