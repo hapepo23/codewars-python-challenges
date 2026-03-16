@@ -34,6 +34,7 @@ The code I released here into the public domain may appear in third-party projec
 
 1. [<6 kyu> Find the odd int](https://www.codewars.com/kata/54da5a58ea159efa38000836) - Solution: [find_the_odd_int.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/find_the_odd_int.py)
 1. [<8 kyu> Draw stairs](https://www.codewars.com/kata/5b4e779c578c6a898e0005c5) - Solution: [draw_stairs.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/draw_stairs.py)
+1. [<8 kyu> Find the Slope](https://www.codewars.com/kata/55a75e2d0803fea18f00009d) - Solution: [find_the_slope.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/find_the_slope.py)
 1. [<8 kyu> Freudian translator](https://www.codewars.com/kata/5713bc89c82eff33c60009f7) - Solution: [freudian_translator.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/freudian_translator.py)
 1. [<8 kyu> Neutralisation](https://www.codewars.com/kata/65128732b5aff40032a3d8f0) - Solution: [neutralisation.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/neutralisation.py)
 1. [<8 kyu> You only need one - Beginner](https://www.codewars.com/kata/57cc975ed542d3148f00015b) - Solution: [you_only_need_one.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/you_only_need_one.py)
