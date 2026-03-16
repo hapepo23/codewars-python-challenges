@@ -33,6 +33,7 @@ The code I released here into the public domain may appear in third-party projec
 ### List of all challenges I solved in Python
 
 1. [<6 kyu> Find the odd int](https://www.codewars.com/kata/54da5a58ea159efa38000836) - Solution: [find_the_odd_int.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/find_the_odd_int.py)
+1. [<7 kyu> Minimum Perimeter of a Rectangle](https://www.codewars.com/kata/5826f54cc60c7e5266000baf) - Solution: [minimum_perimeter_rectangle.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/minimum_perimeter_rectangle.py)
 1. [<8 kyu> Draw stairs](https://www.codewars.com/kata/5b4e779c578c6a898e0005c5) - Solution: [draw_stairs.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/draw_stairs.py)
 1. [<8 kyu> Find the Slope](https://www.codewars.com/kata/55a75e2d0803fea18f00009d) - Solution: [find_the_slope.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/find_the_slope.py)
 1. [<8 kyu> Freudian translator](https://www.codewars.com/kata/5713bc89c82eff33c60009f7) - Solution: [freudian_translator.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/freudian_translator.py)
