@@ -34,6 +34,7 @@ The code I released here into the public domain may appear in third-party projec
 
 1. [<6 kyu> Find the odd int](https://www.codewars.com/kata/54da5a58ea159efa38000836) - Solution: [find_the_odd_int.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/find_the_odd_int.py)
 1. [<6 kyu> Ho Ho Ho with Functions!](https://www.codewars.com/kata/52af1f150fcae8d33d0009bc) - Solution: [ho_ho_ho.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/ho_ho_ho.py)
+1. [<6 kyu> Sudoku board validator](https://www.codewars.com/kata/63d1bac72de941033dbf87ae) - Solution: [sudoku_board_validator.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/sudoku_board_validator.py)
 1. [<7 kyu> 2D Vector Mapping](https://www.codewars.com/kata/5da995d583326300293ce4cb) - Solution: [2d_vector_mapping.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/2d_vector_mapping.py)
 1. [<7 kyu> Minimum Perimeter of a Rectangle](https://www.codewars.com/kata/5826f54cc60c7e5266000baf) - Solution: [minimum_perimeter_rectangle.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/minimum_perimeter_rectangle.py)
 1. [<7 kyu> Reverse words](https://www.codewars.com/kata/5259b20d6021e9e14c0010d4) - Solution: [reverse_words.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/reverse_words.py)
