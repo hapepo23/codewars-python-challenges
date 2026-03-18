@@ -38,6 +38,7 @@ The code I released here into the public domain may appear in third-party projec
 1. [<7 kyu> 2D Vector Mapping](https://www.codewars.com/kata/5da995d583326300293ce4cb) - Solution: [2d_vector_mapping.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/2d_vector_mapping.py)
 1. [<7 kyu> Minimum Perimeter of a Rectangle](https://www.codewars.com/kata/5826f54cc60c7e5266000baf) - Solution: [minimum_perimeter_rectangle.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/minimum_perimeter_rectangle.py)
 1. [<7 kyu> Reverse words](https://www.codewars.com/kata/5259b20d6021e9e14c0010d4) - Solution: [reverse_words.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/reverse_words.py)
+1. [<7 kyu> Word values](https://www.codewars.com/kata/598d91785d4ce3ec4f000018) - Solution: [word_values.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/word_values.py)
 1. [<8 kyu> Draw stairs](https://www.codewars.com/kata/5b4e779c578c6a898e0005c5) - Solution: [draw_stairs.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/draw_stairs.py)
 1. [<8 kyu> Find the Slope](https://www.codewars.com/kata/55a75e2d0803fea18f00009d) - Solution: [find_the_slope.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/find_the_slope.py)
 1. [<8 kyu> Freudian translator](https://www.codewars.com/kata/5713bc89c82eff33c60009f7) - Solution: [freudian_translator.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/freudian_translator.py)
