@@ -32,6 +32,7 @@ The code I released here into the public domain may appear in third-party projec
 
 ### List of all challenges I solved in Python
 
+1. [<5 kyu> Snakes and Ladders](https://www.codewars.com/kata/587136ba2eefcb92a9000027) - Solution: [snakes_and_ladders.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/snakes_and_ladders.py)
 1. [<6 kyu> Find the odd int](https://www.codewars.com/kata/54da5a58ea159efa38000836) - Solution: [find_the_odd_int.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/find_the_odd_int.py)
 1. [<6 kyu> Ho Ho Ho with Functions!](https://www.codewars.com/kata/52af1f150fcae8d33d0009bc) - Solution: [ho_ho_ho.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/ho_ho_ho.py)
 1. [<6 kyu> Sudoku board validator](https://www.codewars.com/kata/63d1bac72de941033dbf87ae) - Solution: [sudoku_board_validator.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/sudoku_board_validator.py)
