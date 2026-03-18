@@ -20,13 +20,13 @@ class FoodItem:
     self.expiry_days = ed
     self.is_almost_empty = iae
 
-  def tostring(self):
+  def __str__(self):
     return '[' + self.name + ', ' + str(self.expiry_days) + ', ' + str(self.is_almost_empty) + ']'
 
 def dotest(items, expected):
   actual = fridge_organizer(items)
   status = 'OK' if expected == actual else 'FAIL'
-  print(f'Items = {[items[row].tostring() for row in range(len(items))]}')
+  print(f'Items = {[str(row) for row in items]}')
   print(f'expected = {expected}, actual = {actual} -> {status}\n')
 
 def main():
