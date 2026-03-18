@@ -7,9 +7,10 @@ https://www.codewars.com/kata/69971f385353edeaf428e1b0
 # ---- SOLUTION ----
 
 def fridge_organizer(items):
-  it = [row for row in items if row.expiry_days >= 0]
-  it.sort(key=lambda e: (not e.is_almost_empty, e.expiry_days, e.name))
-  return [row.name for row in it]
+  return [row.name for row in sorted(
+    (row for row in items if row.expiry_days >= 0),
+    key=lambda e: (not e.is_almost_empty, e.expiry_days, e.name)
+  )]
 
 # ---- TEST ----
 
