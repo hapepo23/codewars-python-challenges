@@ -23,7 +23,7 @@ class SnakesLadders():
     if self.pos[0] == 100 or self.pos[1] == 100:
       message = 'Game over!'
     else:
-      self.pos[self.next_player] += die1 + die2;
+      self.pos[self.next_player] += die1 + die2
       if self.pos[self.next_player] == 100:
         message = f'Player {self.next_player + 1} Wins!'
         notfin = False
@@ -49,19 +49,19 @@ def dotest(game, die1, die2, expected):
 
 def main():
   game = SnakesLadders()
-  dotest(game, 1, 1, "Player 1 is on square 38");
-  dotest(game, 1, 5, "Player 1 is on square 44");
-  dotest(game, 6, 2, "Player 2 is on square 31");
-  dotest(game, 1, 1, "Player 1 is on square 25");
-  dotest(game, 1, 2, "Player 1 is on square 84");
-  dotest(game, 1, 2, "Player 2 is on square 34");
-  dotest(game, 2, 1, "Player 1 is on square 94");
-  dotest(game, 1, 2, "Player 2 is on square 37");
-  dotest(game, 6, 2, "Player 1 is on square 98");
-  dotest(game, 4, 6, "Player 2 is on square 47");
-  dotest(game, 1, 1, "Player 1 Wins!");
-  dotest(game, 6, 6, "Game over!");
-  dotest(game, 6, 6, "Game over!");
+  dotest(game, 1, 1, "Player 1 is on square 38")
+  dotest(game, 1, 5, "Player 1 is on square 44")
+  dotest(game, 6, 2, "Player 2 is on square 31")
+  dotest(game, 1, 1, "Player 1 is on square 25")
+  dotest(game, 1, 2, "Player 1 is on square 84")
+  dotest(game, 1, 2, "Player 2 is on square 34")
+  dotest(game, 2, 1, "Player 1 is on square 94")
+  dotest(game, 1, 2, "Player 2 is on square 37")
+  dotest(game, 6, 2, "Player 1 is on square 98")
+  dotest(game, 4, 6, "Player 2 is on square 47")
+  dotest(game, 1, 1, "Player 1 Wins!")
+  dotest(game, 6, 6, "Game over!")
+  dotest(game, 6, 6, "Game over!")
 
 if __name__ == "__main__":
   main()

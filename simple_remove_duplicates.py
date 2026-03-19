@@ -7,7 +7,7 @@ https://www.codewars.com/kata/54da5a58ea159efa38000836
 # ---- SOLUTION ----
 
 def solve(arr):
-  i = 0;
+  i = 0
   while i < len(arr):
     while arr.count(arr[i]) > 1:
       del arr[i]
