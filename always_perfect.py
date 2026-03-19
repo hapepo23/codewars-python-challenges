@@ -18,7 +18,7 @@ def check_root(strng):
       data[i] = int(data[i])
     except ValueError:
       return "incorrect input"
-    if i > 0 and int(data[i]) != int(data[i - 1]) + 1:
+    if i > 0 and data[i] != data[i - 1] + 1:
       return "not consecutive"
     prod *= int(data[i])
   return f'{prod + 1}, {math.isqrt(prod + 1)}'
