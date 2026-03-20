@@ -34,6 +34,7 @@ The code I released here into the public domain may appear in third-party projec
 
 ### List of all challenges I solved in Python
 
+1. [<5 kyu> Beeramid](https://www.codewars.com/kata/51e04f6b544cf3f6550000c1) - Solution: [beeramid.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/beeramid.py)
 1. [<5 kyu> Snakes and Ladders](https://www.codewars.com/kata/587136ba2eefcb92a9000027) - Solution: [snakes_and_ladders.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/snakes_and_ladders.py)
 1. [<6 kyu> City walking tour](https://www.codewars.com/kata/6904bf406a5bf8ce9fa046df) - Solution: [city_walking_tour.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/city_walking_tour.py)
 1. [<6 kyu> Convert string to camel case](https://www.codewars.com/kata/517abf86da9663f1d2000003) - Solution: [convert_string_to_camel_case.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/convert_string_to_camel_case.py)
