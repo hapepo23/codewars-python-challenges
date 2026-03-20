@@ -21,11 +21,11 @@ def is_possible_to_visit_all(attractions, hotel_coords, start_time_str, close_ti
   y = hotel_coords.y
   for a in attractions:
     d = distance(x, y, a.x, a.y)
-    t += d * 60 / 5 + a.v
+    t += d * 12 + a.v  # 12 min/km
     x = a.x
     y = a.y
   d = distance(x, y, hotel_coords.x, hotel_coords.y)
-  t += d * 60 / 5
+  t += d * 12
   return t <= mins(close_time_str)
 
 # ---- TEST ----
