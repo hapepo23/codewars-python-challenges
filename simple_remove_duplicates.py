@@ -1,7 +1,7 @@
 '''
-6 kyu
-Find the odd int
-https://www.codewars.com/kata/54da5a58ea159efa38000836
+7 kyu
+Simple remove duplicates
+https://www.codewars.com/kata/5ba38ba180824a86850000f7
 '''
 
 # ---- SOLUTION ----
