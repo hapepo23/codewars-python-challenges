@@ -54,6 +54,7 @@ The code I released here into the public domain may appear in third-party projec
 1. [<7 kyu> List Filtering](https://www.codewars.com/kata/53dbd5315a3c69eed20002dd) - Solution: [list_filtering.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/list_filtering.py)
 1. [<7 kyu> Maximum Length Difference](https://www.codewars.com/kata/5663f5305102699bad000056) - Solution: [maximum_length_difference.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/maximum_length_difference.py)
 1. [<7 kyu> Minimum Perimeter of a Rectangle](https://www.codewars.com/kata/5826f54cc60c7e5266000baf) - Solution: [minimum_perimeter_rectangle.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/minimum_perimeter_rectangle.py)
+1. [<7 kyu> Mouse Over (x,y)](https://www.codewars.com/kata/68356baf60410813d358bb2c) - Solution: [mouse_over.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/mouse_over.py)
 1. [<7 kyu> Quicksum](https://www.codewars.com/kata/569924899aa8541eb200003f) - Solution: [quicksum.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/quicksum.py)
 1. [<7 kyu> Reverse words](https://www.codewars.com/kata/5259b20d6021e9e14c0010d4) - Solution: [reverse_words.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/reverse_words.py)
 1. [<7 kyu> Simple remove duplicates](https://www.codewars.com/kata/5ba38ba180824a86850000f7) - Solution: [simple_remove_duplicates.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/simple_remove_duplicates.py)
