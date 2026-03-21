@@ -14,7 +14,7 @@
 
 My solutions to some [**Codewars challenges**](https://www.codewars.com/users/briskwalker), programmed in **Python**, might not be the most sophisticated, but at least mostly easy to read and understand. However, a few are implemented rather poorly, as I am still a beginner.
 
-Current Python rank (since March 18, 2026): 6 kyu.
+Current Python rank (since March 21, 2026): 5 kyu.
 
 -----
 
@@ -34,6 +34,7 @@ The code I released here into the public domain may appear in third-party projec
 
 ### List of all challenges I solved in Python
 
+1. [<4 kyu> Mouse Over (x,y) (Performance Version)](https://www.codewars.com/kata/68358ebb8a04e38c1f278e56) - Solution: [mouse_over_performance_version.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/mouse_over_performance_version.py)
 1. [<4 kyu> Sum by Factors](https://www.codewars.com/kata/54d496788776e49e6b00052f) - Solution: [sum_by_factors.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/sum_by_factors.py)
 1. [<5 kyu> Beeramid](https://www.codewars.com/kata/51e04f6b544cf3f6550000c1) - Solution: [beeramid.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/beeramid.py)
 1. [<5 kyu> Snakes and Ladders](https://www.codewars.com/kata/587136ba2eefcb92a9000027) - Solution: [snakes_and_ladders.py](https://github.com/hapepo23/codewars-python-challenges/blob/master/snakes_and_ladders.py)
